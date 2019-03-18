@@ -1,0 +1,37 @@
+.card-img-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-box-slider {
+	font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1200px) {
+	.text-box-slider {
+		width: 720px;
+	}
+	.my-name {
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.text-box-slider {
+		width: 540px;
+	}
+	.my-name {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.text-box-slider {
+		width: 450px;
+	}
+}
+
+@media (max-width: 768px) {
+	.text-box-slider {
+		width: 360px;
+	}
+}
