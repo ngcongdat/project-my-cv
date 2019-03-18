@@ -1,5 +1,7 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
 
-
-.m-navigation a:focus {
+.myNavigation a:focus {
     background-color: rgba(31, 31, 31, 0.774)
 }

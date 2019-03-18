@@ -1,16 +1,16 @@
+* {
+	font-family: "Open Sans", sans-serif;
+
+}
 .card-img-overlay {
 	background-color: rgba(0, 0, 0, 0.7);
-}
-
-.text-box-slider {
-	font-family: "Open Sans", sans-serif;
 }
 
 @media (min-width: 1200px) {
 	.text-box-slider {
 		width: 720px;
 	}
-	.my-name {
+	.myName {
 		font-size: 5rem;
 	}
 }
@@ -19,7 +19,7 @@
 	.text-box-slider {
 		width: 540px;
 	}
-	.my-name {
+	.myName {
 		font-size: 3rem;
 	}
 }

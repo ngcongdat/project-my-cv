@@ -1,0 +1,22 @@
+.aboutMe {
+    background-color: #00bdbd;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+@media (max-width: 991px) {
+    .myPics {
+        width: 300px;
+        height: auto;
+    }
+    .imgRight {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgLeft {
+        display: none;
+    }
+}
