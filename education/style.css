@@ -2,6 +2,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
 .titles {
     color: #f8655d;
     font-weight: 300;
@@ -14,19 +18,23 @@
     line-height: 140px;
 }
 
+.education {
+    background-color: #EEE; 
+}
+
 .iconEx {
-    background: url(../images/arrow-left.png) no-repeat;
+    background: url(../images/arrow-left-light.png) no-repeat;
     float: left;
     width: 15px;
     height: 50px;
 }
 
 .exFrames {
-    border-left: 1px solid #DDD;
+    border-left: 1px solid #FFF;
 }
 
 .exBox {
-    background-color: #EEE;
+    background-color: #FAFAFA;
     margin-left: 15px;
     border-bottom: 3px solid #DDD;
 }
@@ -36,7 +44,7 @@
     color: #a8a8a8;
 }
 
-.experience .container .row:last-child .exFrames {
+.education .container .row:last-child .exFrames {
     padding-bottom: 0 !important;
 }
 
@@ -53,7 +61,7 @@
     }
 
     .iconEx {
-        background: url(../images/arrow-top.png) no-repeat 50% 100%;
+        background: url(../images/arrow-top-light.png) no-repeat 50% 100%;
         float: none;
         width: 100%;
         height: 40px;
