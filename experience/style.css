@@ -1,0 +1,67 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.titles {
+    color: #f8655d;
+    font-weight: 300;
+}
+
+.time {
+    background-color: #ff675f;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+}
+
+.iconEx {
+    background: url(./arrow-left.png) no-repeat;
+    float: left;
+    width: 15px;
+    height: 50px;
+}
+
+.exFrames {
+    border-left: 1px solid #DDD;
+}
+
+.exBox {
+    background-color: #EEE;
+    margin-left: 15px;
+    border-bottom: 3px solid #DDD;
+}
+
+.exDesc {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+.experience .container .row:last-child .exFrames {
+    padding-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .exFrames {
+        border: none;
+    }
+
+    .time {
+        background-color: #ff675f;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+    }
+
+    .iconEx {
+        background: url(./arrow-top.png) no-repeat 50% 100%;
+        float: none;
+        width: 100%;
+        height: 40px;
+        margin-top: 0 !important;
+    }
+
+    .exBox {
+        margin: 0;
+    }
+    
+}
