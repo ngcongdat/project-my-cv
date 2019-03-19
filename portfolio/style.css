@@ -1,0 +1,35 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.portfolio {
+    background-color: #2bb3dd;
+}
+
+.imageBox {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(37, 37, 37, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+
+.imageBox:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.iconGo {
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #ff675f;
+}
+
