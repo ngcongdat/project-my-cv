@@ -1,0 +1,46 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.skills {
+    background-color: #EEE;
+}
+
+.progress {
+    margin: 20px auto;
+    background-color: #DDD;
+}
+
+.progress-bar {
+    
+    background-color: #f8655d;
+}
+
+.titleSkills {
+    color: #f8655d;
+    font-weight: 300;
+}
+
+.lawSkill {
+    width: 84%;
+}
+
+.notarySkill {
+    width: 93%;
+}
+
+.realEstateSkill {
+    width: 86%;
+}
+
+.frontEndSkill {
+    width: 79%;
+}
+
+.javaSkill {
+    width: 83%;
+}
+
+.photoshopSkill {
+    width: 81%;
+}
