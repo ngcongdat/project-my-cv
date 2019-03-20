@@ -1,0 +1,36 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.titles {
+    color: #f8655d;
+    font-weight: 300;
+}
+
+.getInTouch {
+    background-color: #474d5d;
+}
+
+.contactInfo p {
+    font-size: 13px;
+    color: #93959c;
+}
+
+.social {
+    background-color: #00bdbd;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #00bdbd;
+}
+
+.social a:hover {
+    background-color: #00a7a7;
+}
+
+.social a:hover i {
+    color: #fff;
+}
