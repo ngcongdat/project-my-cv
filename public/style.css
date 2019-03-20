@@ -1,0 +1,353 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* CSS use global */
+.titles {
+    color: #f8655d;
+    font-weight: 300;
+}
+
+/* CSS for slider component */
+.card {
+    background: url(./images/my-job.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    border: none;
+}
+.card-img-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* CSS for navigation component */
+.myNavigation a:focus {
+    background-color: rgba(31, 31, 31, 0.774)
+}
+
+/* CSS for about me component */
+.aboutMe {
+    background-color: #00bdbd;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* CSS for skill component */
+.skills {
+    background-color: #EEE;
+}
+
+.progress {
+    margin: 20px auto;
+    background-color: #DDD;
+}
+
+.progress-bar {
+    
+    background-color: #f8655d;
+}
+
+.lawSkill {
+    width: 84%;
+}
+
+.notarySkill {
+    width: 93%;
+}
+
+.realEstateSkill {
+    width: 86%;
+}
+
+.frontEndSkill {
+    width: 79%;
+}
+
+.javaSkill {
+    width: 83%;
+}
+
+.photoshopSkill {
+    width: 81%;
+}
+
+/* CSS for experience and education component */
+.time {
+    background-color: #ff675f;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+}
+
+.experience .iconEx {
+    background: url(../images/arrow-left.png) no-repeat;
+    float: left;
+    width: 15px;
+    height: 50px;
+}
+
+.experience .exFrames {
+    border-left: 1px solid #DDD;
+}
+
+.experience .exBox {
+    background-color: #EEE;
+    margin-left: 15px;
+    border-bottom: 3px solid #DDD;
+}
+
+.education {
+    background-color: #EEE; 
+}
+
+.education .iconEx {
+    background: url(../images/arrow-left-light.png) no-repeat;
+    float: left;
+    width: 15px;
+    height: 50px;
+}
+
+.education .exFrames {
+    border-left: 1px solid #FFF;
+}
+
+.education .exBox {
+    background-color: #FAFAFA;
+    margin-left: 15px;
+    border-bottom: 3px solid #DDD;
+}
+
+.exDesc {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
+.experience .container .row:last-child .exFrames, .education .container .row:last-child .exFrames {
+    padding-bottom: 0 !important;
+}
+
+/* CSS for portfolio component */
+.portfolio {
+    background-color: #2bb3dd;
+}
+
+.portfolio .titles  {
+    color: #fff;
+    font-weight: 300;
+}
+
+.portfolio h4, .portfolio p {
+    color: #fff;
+}
+
+.imageBox {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(37, 37, 37, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+
+.imageBox:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.iconGo {
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #ff675f;
+}
+
+/* CSS for get in touch component */
+.getInTouch {
+    background-color: #474d5d;
+}
+
+.contactInfo p {
+    font-size: 13px;
+    color: #93959c;
+}
+
+.social {
+    background-color: #00bdbd;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #00bdbd;
+}
+
+.social a:hover {
+    background-color: #00a7a7;
+}
+
+.social a:hover i {
+    color: #fff;
+}
+
+/* CSS responsive */
+@media (min-width: 1920px) {
+    .card {
+        height: 810px;
+    }
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .card {
+        height: 720px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .card {
+        height: 630px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+	.text-box-slider {
+		width: 720px;
+	}
+	.myName {
+		font-size: 5rem;
+    }
+    .imgLeft {
+        display: none;
+    }
+    .portfolio h4 {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        height: 630px;
+    }
+	.text-box-slider {
+		width: 540px;
+	}
+	.myName {
+		font-size: 3rem;
+    }
+    .imgLeft {
+        display: none;
+    }
+    .portfolio h4 {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card {
+        height: 540px;
+    }
+	.text-box-slider {
+		width: 450px;
+    }
+   
+    .myPics {
+        width: 300px;
+        height: auto;
+    }
+    .imgRight {
+        display: none;
+    }
+    .imgLeft h4 {
+		text-align: center;
+    }
+    .imgLeft h5 {
+		text-align: center;
+    }
+    .portfolio h4 {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        height: 540px;
+    }
+	.text-box-slider {
+		width: 360px;
+    }
+    
+    .myPics {
+        width: 300px;
+        height: auto;
+    }
+    .imgRight {
+        display: none;
+    }
+    .imgLeft h4 {
+		text-align: center;
+    }
+    .imgLeft h5 {
+		text-align: center;
+    }
+    .exFrames {
+        border: none;
+    }
+
+    .time {
+        background-color: #ff675f;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+    }
+
+    .experience .iconEx {
+        background: url(../images/arrow-top.png) no-repeat 50% 100%;
+        float: none;
+        width: 100%;
+        height: 40px;
+        margin-top: 0 !important;
+    }
+
+    .education .iconEx {
+        background: url(../images/arrow-top-light.png) no-repeat 50% 100%;
+        float: none;
+        width: 100%;
+        height: 40px;
+        margin-top: 0 !important;
+    }
+
+    .experience .exFrames {
+        border: none;
+    }
+
+    .education .exFrames {
+        border: none;
+    }
+
+    .exBox {
+        margin: 0 !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+        height: 270px !important;
+    }
+    .text-box-slider {
+		width: 270px;
+    }
+    .text-box-slider h1 {
+		font-size: 2rem !important;
+    }
+    .text-box-slider h2 {
+		font-size: 1.5rem !important;
+    }
+}
